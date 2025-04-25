@@ -5,7 +5,7 @@ import { redirect } from 'next/navigation';
 function textCheckerInvalid (text){
     return (!text || text.trim() === '');
 }
-export async function shareMeal(formData){
+export async function shareMeal(prevState, formData){
     
     const meal = {  
       title: formData.get('title'),
@@ -23,7 +23,7 @@ export async function shareMeal(formData){
         || textCheckerInvalid(meal.summary_email)
         || !meal.creator_email.includes('@')
         || !meal.image || meal.image.size == 0) {
-            throw new Error('Invalid input');
+            return {message: 'Invalid Input'}
         }
     await saveMeal(meal);
     redirect('/meals');
