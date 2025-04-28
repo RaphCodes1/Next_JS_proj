@@ -1,0 +1,26 @@
+.scores{
+    margin: 10px auto;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.xScore{
+    color: #f64a58;
+}
+
+.oScore{
+    color: #2561a1;
+}
+
+.drawScore{
+    background: linear-gradient(to left, #dfb560, rgb(222, 198, 13));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
