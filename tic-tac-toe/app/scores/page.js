@@ -3,7 +3,7 @@ import styles from './page.module.css'
 export default function PageScore({xWins,oWins,draws}){
     return(
         <header className={styles.scores}>
-            <h1 className={styles.title}>Hello there</h1>
+            <h1 className={styles.title}>Scores</h1>
             {(()=>{
                 if(xWins == 0 && oWins == 0)
                 {
