@@ -3,12 +3,19 @@
     padding: 10px 10px;
     display: flex;
     flex-direction: column;
-    width:50%;
+    width:70%;
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+.title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .xScore{
@@ -23,4 +30,45 @@
     background: linear-gradient(to left, #dfb560, rgb(222, 198, 13));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+@media(max-width:700px){
+    .scores{
+        width:80%;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+    .oScore, .xScore ,.drawScore {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width:547px){
+    .title, .oScore, .xScore, .drawScore{
+        font-size: 2rem;
+    }
+    .scores{
+        width:80%;
+    }
+}
+
+@media(max-width:390px){
+    .title, .oScore, .xScore, .drawScore{
+        font-size: 2rem;
+    }
+    .scores{
+        width:90%;
+    }
+}
+
+@media(max-width:320px){
+    .title, .oScore, .xScore, .drawScore{
+        font-size: 1.8rem;
+    }
+
+    .scores{
+        margin-left: 30px;
+        width: 100%;
+    }
 }
