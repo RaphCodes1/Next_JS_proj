@@ -49,6 +49,8 @@
     display: grid;
     grid-auto-flow: column;
     grid-template-rows: repeat(3, auto);
+    width: 90vw;
+    max-width: 400px;
 }
 
 .GameButton button:disabled{
@@ -167,14 +169,33 @@
     }
 }
 
+@media(max-width: 390px){
+    .GameButton .buttonBlue, .GameButton .buttonRed, 
+    .GameButton .buttonGray, .GameButton .buttonGold
+    {   
+        /* min-width: 6rem; */
+        max-width: 2rem;
+        max-height: 2rem;
+        font-size: 4rem;
+    }
+
+    .turn h1{
+        font-size: 3rem;
+    }
+
+    .resetBtn{
+        font-size: 0.8rem;
+    }
+}
+
 @media(max-width:480px){
     .GameButton .buttonBlue, .GameButton .buttonRed, 
     .GameButton .buttonGray, .GameButton .buttonGold
     {   
-        min-width: 6rem;
-        max-width: 7rem;
-        min-height: 6rem;
-        border-width:0px;
+        /* min-width: 6rem; */
+        max-width: 5rem;
+        max-height: 5rem;
+        font-size: 6rem;
     }
 
     .turn h1{
