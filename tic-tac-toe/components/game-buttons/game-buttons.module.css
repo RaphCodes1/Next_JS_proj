@@ -163,9 +163,9 @@
     .GameButton .buttonBlue, .GameButton .buttonRed, 
     .GameButton .buttonGray, .GameButton .buttonGold
     {   
-        width: 5rem;
-        height: 5rem;
-        font-size: 2.5rem;
+        width: 7rem;
+        height: 7rem;
+        font-size: 4rem;
     }
 }
 
@@ -173,9 +173,9 @@
     .GameButton .buttonBlue, .GameButton .buttonRed, 
     .GameButton .buttonGray, .GameButton .buttonGold
     {   
-        width: 5rem;
-        height: 5rem;
-        font-size: 2rem;
+        width: 5.5rem;
+        height: 5.5rem;
+        font-size: 3rem;
     }
 
     .turn h1{
@@ -192,9 +192,9 @@
     .GameButton .buttonGray, .GameButton .buttonGold
     {   
         /* min-width: 6rem; */
-        width: 5rem;
-        height: 5rem;
-        font-size: 2rem;
+        width: 5.5rem;
+        height: 5.5rem;
+        font-size: 3rem;
     }
 
     .turn h1{
