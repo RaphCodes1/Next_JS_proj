@@ -43,6 +43,11 @@
     gap: 0.5rem;
 }
 
+.GameButton button {
+    text-align: center;
+    padding: 5px 5px;
+}
+
 .ButtonGrid{
     gap: 0.5rem;
     justify-content: center;
@@ -65,6 +70,7 @@
     font-size: 8rem;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
     border-width:0px;
+    background-color: #F1EFEC;
     transition: background-color 0.1s ease;
 }
 
@@ -75,6 +81,7 @@
     font-size: 8rem;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
     border-width:0px;
+    background-color: #F1EFEC;
     transition: background-color 0.1s ease;
 }
 
