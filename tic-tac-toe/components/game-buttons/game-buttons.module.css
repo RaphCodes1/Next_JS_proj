@@ -163,23 +163,13 @@
     .GameButton .buttonBlue, .GameButton .buttonRed, 
     .GameButton .buttonGray, .GameButton .buttonGold
     {   
-        width: 7rem;
-        height: 7rem;
-        font-size: 4rem;
-    }
-}
-@media(max-width:800px){
-
-    .GameButton .buttonBlue, .GameButton .buttonRed, 
-    .GameButton .buttonGray, .GameButton .buttonGold
-    {   
-        width: 7rem;
-        height: 7rem;
-        font-size: 4rem;
+        width: 5rem;
+        height: 5rem;
+        font-size: 2.5rem;
     }
 }
 
-@media(max-width:390px){
+@media(max-width: 390px){
     .GameButton .buttonBlue, .GameButton .buttonRed, 
     .GameButton .buttonGray, .GameButton .buttonGold
     {   
@@ -201,9 +191,10 @@
     .GameButton .buttonBlue, .GameButton .buttonRed, 
     .GameButton .buttonGray, .GameButton .buttonGold
     {   
-        width: 5rem;
-        height: 5rem;
-        font-size: 4rem;
+        /* min-width: 6rem; */
+        width: 4rem;
+        height: 4rem;
+        font-size: 2rem;
     }
 
     .turn h1{
