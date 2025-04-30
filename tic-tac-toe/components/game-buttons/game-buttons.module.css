@@ -168,6 +168,16 @@
         font-size: 4rem;
     }
 }
+@media(max-width:800px){
+
+    .GameButton .buttonBlue, .GameButton .buttonRed, 
+    .GameButton .buttonGray, .GameButton .buttonGold
+    {   
+        width: 7rem;
+        height: 7rem;
+        font-size: 4rem;
+    }
+}
 
 @media(max-width:480px){
     .GameButton .buttonBlue, .GameButton .buttonRed, 
