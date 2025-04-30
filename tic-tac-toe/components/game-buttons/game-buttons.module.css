@@ -192,8 +192,8 @@
     .GameButton .buttonGray, .GameButton .buttonGold
     {   
         /* min-width: 6rem; */
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 5rem;
         font-size: 2rem;
     }
 
