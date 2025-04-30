@@ -5,7 +5,8 @@
   font-style: normal;
 }
 
-body{
+html, body{
   font-family: 'Cal Sans', Helvetica;
   background-color: #F1EFEC;
+  overflow-x: hidden;
 }
