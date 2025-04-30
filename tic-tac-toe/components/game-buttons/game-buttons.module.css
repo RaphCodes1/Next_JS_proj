@@ -179,13 +179,30 @@
     }
 }
 
+@media(max-width:390px){
+    .GameButton .buttonBlue, .GameButton .buttonRed, 
+    .GameButton .buttonGray, .GameButton .buttonGold
+    {   
+        width: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .turn h1{
+        font-size: 3rem;
+    }
+
+    .resetBtn{
+        font-size: 0.8rem;
+    }
+}
+
 @media(max-width:480px){
     .GameButton .buttonBlue, .GameButton .buttonRed, 
     .GameButton .buttonGray, .GameButton .buttonGold
     {   
-        /* min-width: 6rem; */
-        width: 6rem;
-        height: 6rem;
+        width: 5rem;
+        height: 5rem;
         font-size: 4rem;
     }
 
